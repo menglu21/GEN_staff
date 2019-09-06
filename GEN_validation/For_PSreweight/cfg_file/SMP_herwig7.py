@@ -249,7 +249,6 @@ process.generator = cms.EDFilter("Herwig7GeneratorFilter",
         'cd /Herwig/Shower', 
         'set FxFxHandler:njetsmax      2', 
         'set FxFxHandler:ETClus 30*GeV', 
-        'set FxFxHandler:EtaClusMax 999'
     ),
     parameterSets = cms.vstring(
         'hw_common_merging_settings', 
